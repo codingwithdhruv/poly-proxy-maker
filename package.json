@@ -1,0 +1,25 @@
+{
+    "name": "poly-proxy-maker",
+    "version": "1.0.0",
+    "description": "",
+    "license": "ISC",
+    "author": "",
+    "type": "commonjs",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "dependencies": {
+        "@polymarket/builder-relayer-client": "^0.0.8",
+        "@polymarket/clob-client": "^5.2.0",
+        "@polymarket/builder-signing-sdk": "latest",
+        "ethers": "^5.8.0",
+        "viem": "^2.17.0",
+        "dotenv": "^16.4.5"
+    },
+    "devDependencies": {
+        "typescript": "^5.3.3",
+        "ts-node": "^10.9.2",
+        "@types/node": "^20.11.0"
+    }
+}
