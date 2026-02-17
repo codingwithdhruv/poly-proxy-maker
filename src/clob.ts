@@ -1,6 +1,6 @@
 import { ClobClient } from "@polymarket/clob-client";
 import { Wallet } from "ethers";
-import { config } from "./config";
+import { config } from "./config.js";
 
 export async function initClobClient(proxyAddress?: string) {
     console.log("Initializing CLOB Client...");

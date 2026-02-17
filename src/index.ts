@@ -1,5 +1,5 @@
-import { deployProxyWallet } from "./relay";
-import { initClobClient } from "./clob";
+import { deployProxyWallet } from "./relay.js";
+import { initClobClient } from "./clob.js";
 
 async function main() {
     try {

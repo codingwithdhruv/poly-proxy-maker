@@ -3,7 +3,7 @@ import { privateKeyToAccount } from "viem/accounts";
 import { polygon } from "viem/chains";
 import { RelayClient } from "@polymarket/builder-relayer-client";
 import { BuilderConfig } from "@polymarket/builder-signing-sdk";
-import { config } from "./config";
+import { config } from "./config.js";
 
 export async function deployProxyWallet() {
     console.log("Initializing Proxy Wallet Deployment...");
